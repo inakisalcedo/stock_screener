@@ -104,7 +104,3 @@ Una empresa pasa el filtro final si cumple, entre otros:
 - El proceso depende fuertemente de la disponibilidad y estabilidad de la API no oficial de `yfinance`, por lo que puede fallar o demorar según el volumen de tickers.
 - Los checkpoints periódicos en `advanced_data.py` ayudan a mitigar pérdidas de progreso ante caídas del proceso, pero no implementan reintentos automáticos.
 - Los valores financieros se convierten a una moneda de referencia usando el tipo de cambio *spot* más reciente (`previousClose`), lo que introduce una aproximación respecto al tipo de cambio vigente en cada período histórico reportado.
-
-## 📄 Licencia
-
-Este proyecto no incluye una licencia definida. Agrega un archivo `LICENSE` si planeas distribuirlo públicamente.
